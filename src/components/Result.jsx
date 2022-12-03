@@ -7,7 +7,7 @@ export default function Result(props) {
         }
     )
     return (
-        <div className=''>
+        <div className='box-2'>
             {boxes}
         </div>
 

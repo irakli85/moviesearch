@@ -29,7 +29,7 @@ function App() {
   }
 
   const getSearchedMovies = () => {
-    // console.log(SEARCHAPI + search)
+    
     axios.get(
       SEARCHAPI + search
     )
@@ -62,7 +62,7 @@ function App() {
   return (
     <div className="search-bar">
       <input type="search" value={search} onChange={changeTheSearch} />
-      <p>მოძებნე ფილმი</p>
+      <p>Search here</p>
       {
         movies.length === 0
           ?
