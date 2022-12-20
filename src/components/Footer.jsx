@@ -4,9 +4,9 @@ function Footer() {
   return (
     <>
         <footer>
-            <div>
+            
                 <p className='footer-text1'>Questions? Contact us.</p>
-            </div>
+            
             <div className='footer-nav'>
                 <div className='footer-nav-items'>
                     <a href='/'>FAQ</a>
@@ -36,7 +36,7 @@ function Footer() {
                 <option value="eng">English</option>
                 <option value="rus">русски</option>
             </select>
-            <p className='footer-text2'>Netflix Georgia</p>
+            <p className='footer-text2'>Jetflix Georgia</p>
         </footer>
     </>
   )

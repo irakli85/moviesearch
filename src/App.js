@@ -71,7 +71,7 @@ function App() {
     <Main/>
     <div className="search-bar">
       <div className="input-box">
-        <input type="search" placeholder="Search here" value={search} onChange={changeTheSearch} />
+        <input type="search" placeholder="&#128269; Search here" value={search} onChange={changeTheSearch} />
         <p>Get Started</p>
       </div>
       {
