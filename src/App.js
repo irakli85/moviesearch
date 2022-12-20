@@ -1,9 +1,15 @@
-import Result from "./components/Result";
+import MovieList from "./components/MovieList";
 import axios from "axios";
 import { useState } from "react";
 import { useEffect } from "react";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
+
 const APIURL = "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=04c35731a5ee918f014970082a0088b1&page=1";
 const SEARCHAPI = "https://api.themoviedb.org/3/search/movie?&api_key=04c35731a5ee918f014970082a0088b1&query=";
+
+
 function App() {
   const [movies, setMovies] = useState([]);
   const [search, setSearch] = useState("");
@@ -17,7 +23,7 @@ function App() {
     axios.get(APIURL)
       .then(
         (response) => {
-          console.log(response.data.results)
+          // console.log(response.data.results)
           setMovies(response.data.results);
         }
       )
@@ -35,7 +41,7 @@ function App() {
     )
       .then(
         (response) => {
-          console.log(response.data.results)
+          // console.log(response.data.results)
           setMovies(response.data.results);
         }
       )
@@ -60,19 +66,25 @@ function App() {
   )
 
   return (
+    <>
+    <Header/>
+    <Main/>
     <div className="search-bar">
-      <input type="search" value={search} onChange={changeTheSearch} />
-      <p>Search here</p>
+      <div className="input-box">
+        <input type="search" placeholder="Search here" value={search} onChange={changeTheSearch} />
+        <p>Get Started</p>
+      </div>
       {
         movies.length === 0
           ?
           <div> Loading... </div>
           :
-          <Result movies={movies} />
+          <MovieList movies={movies} />
 
-      }
-      
+      }      
     </div>
+    <Footer/>
+    </>
   );
 }
 
