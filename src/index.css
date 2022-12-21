@@ -13,6 +13,7 @@ body{
   height: auto;
   background-image: url('./assets/bg.jpg');
   background-repeat: no-repeat;
+  background-size: 100% 693px;
   background-color: rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column;
