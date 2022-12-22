@@ -118,6 +118,7 @@ main p{
 }
 
 .result-container{
+  width: 95%;
   height: 2500px;
   margin-top: 100px;
   display: flex;
@@ -133,7 +134,7 @@ main p{
 .movie-img{
   width: 300px;
   height: 400px;
-  flex-basis: 20%;
+  flex-basis: 22%;
   border-radius: 5px;
   cursor: pointer;
 }
