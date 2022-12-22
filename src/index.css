@@ -261,6 +261,8 @@ footer select::before{
   display: none;
 }
 
+
+
 @media screen and (max-width: 700px){
   header button{
     margin-right: 10px;
