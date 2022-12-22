@@ -6,13 +6,14 @@ function Header() {
     <>
         <header>
             <img className='logo' src={logo} alt="logo" />
-            <div>
-                <select>
+            <div>            
+                <select>                  
                     <option value="eng">English</option>
                     <option value="rus">русски</option>
                 </select>
                 <button>sign in</button>
             </div>
+            <p className='screen'>Please use device with bigger screen resolution</p>
         </header>    
     </>
   )
