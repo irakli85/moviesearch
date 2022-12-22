@@ -13,6 +13,7 @@ function Header() {
                 </select>
                 <button>sign in</button>
             </div>
+            <p className='screen'>Please use device with bigger screen resolution</p>
         </header>    
     </>
   )
