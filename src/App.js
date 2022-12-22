@@ -77,12 +77,13 @@ function App() {
       {
         movies.length === 0
           ?
-          <div> Loading... </div>
+          <div>loading...</div>
           :
           <MovieList movies={movies} />
 
-      }      
+      }            
     </div>
+    
     <Footer/>
     </>
   );

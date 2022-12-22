@@ -274,7 +274,18 @@ footer select::before{
 
   .text{
     display: none;
-  }  
+  }
+  
+  .footer-text1,
+  .footer-nav,
+  footer select,
+  .footer-text2{
+  margin-left: 20px;
+}
+
+footer{
+  height: auto;
+}
   
 }
 
