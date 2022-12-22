@@ -3,7 +3,11 @@ import React from 'react'
 function MovieList(props) {
     const boxes = props.movies.map(
         (item,index) => {
-            return <Box key={index} image={item.poster_path} title={item.original_title} rating={item.vote_average} />
+            return <Box
+            key={index}
+            image={item.poster_path}
+            title={item.original_title}
+            rating={item.vote_average} />
         }
     )
     return (

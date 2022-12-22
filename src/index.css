@@ -8,6 +8,10 @@
   font-family: 'Josefin Sans';
 }
 
+#root{
+  width: 100%;
+}
+
 body{
   width: 100%;
   height: auto;
@@ -33,7 +37,6 @@ header{
   margin-left: 100px;
   display: flex;
   justify-content: space-between;
-  /* outline: solid red; */
 }
 
 header button{
