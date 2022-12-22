@@ -6,8 +6,8 @@ function Header() {
     <>
         <header>
             <img className='logo' src={logo} alt="logo" />
-            <div>
-                <select>
+            <div>            
+                <select>                  
                     <option value="eng">English</option>
                     <option value="rus">русски</option>
                 </select>
