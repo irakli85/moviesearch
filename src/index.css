@@ -281,6 +281,10 @@ footer select::before{
     margin-right: 10px;
   }
 
+  main h1{
+    width: auto;
+  }
+
   .search-bar input{
     width: 230px;
     height: 60px;   
@@ -313,7 +317,17 @@ footer{
 }
 
 @media screen and (max-width: 500px){
-  .footer-nav{
+  .footer-nav,
+  .input-box p{
     display: none;
+  }
+
+  header{
+    margin-left: 10px;
+  }
+
+  .movie-img{
+    width: 300px;
+    height: 400px;    
   }
 }
