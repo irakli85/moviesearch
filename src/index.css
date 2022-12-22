@@ -286,6 +286,10 @@ footer select::before{
 footer{
   height: auto;
 }
+
+.footer-nav{
+  flex-wrap: wrap;
+}
   
 }
 
