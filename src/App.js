@@ -67,27 +67,26 @@ function App() {
   )
 
   return (
-    <>
-     
-    <Header/>
-    <Main/>
-    <div className="search-bar">
-      <div className="input-box">
-        <input type="search" placeholder="&#128269; Search here" value={search} onChange={changeTheSearch} />
-        <p>Get Started</p>
-      </div>
-      {
-        movies.length === 0
-          ?
-          <div className="loading-box">
-            <img className="loading" src={loading} alt="loading"/>
-          </div>
-          :
-          <MovieList movies={movies} />
+    <>     
+      <Header/>
+      <Main/>
+      <div className="search-bar">
+        <div className="input-box">
+          <input type="search" placeholder="&#128269; Search here" value={search} onChange={changeTheSearch} />
+          <p>Get Started</p>
+        </div>
+        {
+          movies.length === 0
+            ?
+            <div className="loading-box">
+              <img className="loading" src={loading} alt="loading"/>
+            </div>
+            :
+            <MovieList movies={movies} />
 
-      }            
-    </div>    
-    <Footer/>            
+        }            
+      </div>    
+      <Footer/>            
     </>
   );
 }
