@@ -70,6 +70,10 @@ function App() {
 
   return (
     <>
+    <Routes>
+      <Route></Route>
+      <Route></Route>
+    </Routes>
     <Header/>
     <Main/>
     <div className="search-bar">
