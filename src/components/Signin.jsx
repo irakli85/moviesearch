@@ -25,21 +25,21 @@ function Signin() {
             <p className='signin-text1'>New to Jetflix?<a href="/">Sign up now.</a></p>
             <p className='signin-text2'>This page is protected by Google reCAPTCHA to ensure you're not a bot.<a href="/">Learn more.</a></p>
         </form>
-        <div>
-            <a href="/">Questions? Contact us.</a>
-            <div>
-                <div>
+        <div className='signin-footer'>
+            <a className='signin-footer-question' href="/">Questions? Contact us.</a>
+            <div className='signin-footer-nav'>
+                <div className='signin-footer-nav-items'>
                     <a href="/">FAQ</a>
                     <a href="/">Cookie Preferences</a>
                 </div>
-                <div>
+                <div className='signin-footer-nav-items'>
                     <a href="/">Help Center</a>
                     <a href="/">Corporate Information</a>
                 </div>
-                <div>
+                <div className='signin-footer-nav-items'>
                     <a href="/">Terms of Use</a>
                 </div>
-                <div>
+                <div className='signin-footer-nav-items'>
                     <a href="/">Privacy</a>
                 </div>
             </div>

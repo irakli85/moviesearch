@@ -400,7 +400,7 @@ section{
   font-weight: 500;
   color: #fff;
   border: none;
-  cursor: pointer;
+  cursor: pointer;  
 }
 
 .signin-check{
@@ -457,4 +457,49 @@ section{
 .signin-text2 a:hover,
 .signin-text1 a:hover{
   text-decoration: underline;
+}
+
+.signin-footer{
+  margin-top: 100px;
+  background-color: rgba(0,0,0,.75);
+  height: 260px;
+}
+
+.signin-footer-question{
+  display: block;
+  font-size: 16px;
+  padding-top: 30px;
+  margin-left: 100px;
+}
+
+.signin-footer a{
+  color: #737373;
+}
+
+.signin-footer a:hover{  
+  text-decoration: underline;
+}
+
+.signin-footer-nav{
+  margin-top: 30px;
+  font-size: 13px;
+  display: flex;
+  margin-left: 100px;
+}
+
+.signin-footer-nav-items{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.signin-footer select{
+  width: 140px;
+  height: 50px;
+  background: black;
+  border: solid 1px #737373;
+  color: #737373;
+  margin-top: 50px;
+  margin-left: 100px;
 }
