@@ -7,6 +7,7 @@ import Main from "./components/Main";
 import Footer from "./components/Footer";
 import loading from "./assets/sample.gif";
 import {Routes, Route} from "react-router-dom";
+import Signin from "./components/Signin";
 
 const APIURL = "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=04c35731a5ee918f014970082a0088b1&page=1";
 const SEARCHAPI = "https://api.themoviedb.org/3/search/movie?&api_key=04c35731a5ee918f014970082a0088b1&query=";
@@ -89,6 +90,7 @@ function App() {
     </div>
     
     <Footer/>
+    <Signin/>
     </>
   );
 }

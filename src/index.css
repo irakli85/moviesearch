@@ -329,7 +329,132 @@ footer{
   .movie-img{
     width: 300px;
     height: 400px;    
-  }
+  }  
+}
 
-  
+
+/* SIGN IN */
+
+section{
+  background-image: url("./assets/signbg.jpg");
+  background-repeat: no-repeat;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.signin-logo-box{
+  padding-top: 40px;
+  padding-left: 100px;
+}
+
+.signin-form{
+    background-color: rgba(0,0,0,.75);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    min-height: 600px;
+    padding: 60px 68px 40px;
+    width: 450px;
+    margin: 0 auto;
+}
+
+.signin-form h3{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+#signin-email,
+#signin-pass{
+  width: 314px;
+  height: 50px;
+  background: #333;
+  border-radius: 4px;
+  border: none;
+  margin-top: 30px;
+  font-size: 16px;
+  color: #8c8c8c;
+  padding-left: 20px;
+}
+
+#signin-email::placeholder,
+#signin-pass::placeholder{
+  font-size: 16px;
+  color: #8c8c8c;
+}
+
+#signin-email:focus,
+#signin-pass:focus{
+  outline: none;
+  border-bottom:solid 2px #e87c03;
+}
+
+.signin-form button{
+  width: 314px;
+  height: 50px;
+  margin-top: 60px;
+  background: #e50914;
+
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.signin-check{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.signin-check input{
+  accent-color: white;
+}
+
+.signin-check label{
+  margin-left: 5px;
+  color: #b3b3b3;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.signin-check a{
+  color: #b3b3b3;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.signin-check a:hover{
+  text-decoration: underline;
+}
+
+.signin-text1{
+  color: #737373;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 26px;
+}
+
+.signin-text1 a{
+  color: white;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.signin-text2{
+  margin-top: 20px;
+  color: #8c8c8c;
+  font-size: 13px;
+}
+
+.signin-text2 a{
+  color: #0071eb;
+  margin-left: 5px;  
+}
+
+.signin-text2 a:hover,
+.signin-text1 a:hover{
+  text-decoration: underline;
 }
