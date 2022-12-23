@@ -6,7 +6,13 @@ import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <App/>   
+    {/* <<BrowserRouter>
+      <Routes>
+        <Route path='/' element={<App/>}></Route>
+        <Route path='/signin' element={<Signin/>}></Route>
+      </Routes>
+    </BrowserRouter> >    */}
+    <App/>
   </>
 );
 
