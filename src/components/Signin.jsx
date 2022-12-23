@@ -1,12 +1,15 @@
 import React from 'react'
 import signinLogo from '../assets/logo.png'
+import { Link } from 'react-router-dom'
 
 function Signin() {
   return (
     <>
     <section>
         <div className='signin-logo-box'>
+            <Link to="/">
             <img className='logo' src={signinLogo} alt='logo'/>
+            </Link>
         </div>
         <form className='signin-form'>
             <h3>Sign In</h3>
